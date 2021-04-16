@@ -58,6 +58,9 @@ public class Question {
         this.timeCreated = timeCreated;
     }
 
+    public Question() {
+    }
+
     public Long getId() {
         return qid;
     }
